@@ -7,4 +7,3 @@ arguments:
 assertions:
     - { that: "notNull" }
     - { that: "same", value: 2 }
-disabled: true
