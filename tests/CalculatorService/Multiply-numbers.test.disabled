@@ -1,0 +1,9 @@
+name: "Calculator Service - multiplyNumbers method"
+class: Santa\Testuals\Example\Service\CalculatorService
+method: "multiplyNumbers"
+arguments:
+    - 2
+    - 3
+assertions:
+    - { that: "same", value: 6 }
+disabled: true

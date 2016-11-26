@@ -1,0 +1,14 @@
+name: "Unique name 2"
+class: Santa\Testuals\Example\Service\PeopleAgeService
+dependencies:
+  0:
+    class: "@Santa\\Testuals\\Example\\Model\\Person"
+    behaviours:
+        - { call: "getAge", return: 18 }
+  1:
+    class: "@Santa\\Testuals\\Example\\Model\\Person"
+    behaviours:
+        - { call: "getAge", return: 20 }
+method: "calculateAveragePeopleAge"
+assertions:
+    - { that: "same", value: 19 }

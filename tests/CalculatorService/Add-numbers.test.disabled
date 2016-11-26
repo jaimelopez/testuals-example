@@ -1,0 +1,10 @@
+name: "Calculator Service - addNumbers method"
+class: Santa\Testuals\Example\Service\CalculatorService
+method: "addNumbers"
+arguments:
+    - 4
+    - 2
+assertions:
+    - { that: "notNull" }
+    - { that: "same", value: 2 }
+disabled: true
