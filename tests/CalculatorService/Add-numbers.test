@@ -5,5 +5,5 @@ arguments:
     - 4
     - 2
 assertions:
-    - { that: "notNull" }
-    - { that: "same", value: 2 }
+    - { that: "notSame", value: 12 }
+    - { that: "same", value: 6 }
