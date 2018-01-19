@@ -1,6 +1,6 @@
 <?php
 
-namespace Santa\Testuals\Example\Model;
+namespace JaimeLopez\Testuals\Example\Model;
 
 class Person
 {

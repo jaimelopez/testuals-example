@@ -1,12 +1,12 @@
 name: "Unique name 2"
-class: Santa\Testuals\Example\Service\PeopleAgeService
+class: JaimeLopez\Testuals\Example\Service\PeopleAgeService
 dependencies:
   0:
-    class: "@Santa\\Testuals\\Example\\Model\\Person"
+    class: "@JaimeLopez\\Testuals\\Example\\Model\\Person"
     behaviours:
         - { call: "getAge", return: 18 }
   1:
-    class: "@Santa\\Testuals\\Example\\Model\\Person"
+    class: "@JaimeLopez\\Testuals\\Example\\Model\\Person"
     behaviours:
         - { call: "getAge", return: 20 }
 method: "calculateAveragePeopleAge"

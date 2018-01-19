@@ -1,6 +1,6 @@
 <?php
 
-namespace Santa\Testuals\Example\Service;
+namespace JaimeLopez\Testuals\Example\Service;
 
 class CalculatorService
 {

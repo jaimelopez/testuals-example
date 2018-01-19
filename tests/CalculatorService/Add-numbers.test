@@ -1,5 +1,5 @@
 name: "Calculator Service - addNumbers method"
-class: Santa\Testuals\Example\Service\CalculatorService
+class: JaimeLopez\Testuals\Example\Service\CalculatorService
 method: "addNumbers"
 arguments:
     - 4

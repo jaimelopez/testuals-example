@@ -1,8 +1,8 @@
 <?php
 
-namespace Santa\Testuals\Example\Service;
+namespace JaimeLopez\Testuals\Example\Service;
 
-use Santa\Testuals\Example\Model\Person;
+use JaimeLopez\Testuals\Example\Model\Person;
 
 class PeopleAgeService
 {

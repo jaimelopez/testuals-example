@@ -1,25 +1,25 @@
 {
-  "name":         "santa/testuals-example",
+  "name":         "jaimelopez/testuals-example",
   "description":  "Example of Testual library uses",
   "keywords":     ["test", "testing", "development", "documentation"],
-  "homepage":     "http://www.santacompanha.com/testuals",
+  "homepage":     "https://www.0xbaaad.com",
   "type":         "library",
   "license":      "MIT",
   "authors":      [
     {
       "name":      "Jaime Lopez",
       "email":     "jeims.lopez@gmail.com",
-      "homepage":  "http://www.santacompanha.com"
+      "homepage":  "https://www.0xbaaad.com"
     }
   ],
 
   "require-dev": {
-    "santa/testuals": "dev-master"
+    "jaimelopez/testuals": "dev-master"
   },
 
   "autoload": {
     "psr-4": {
-      "Santa\\Testuals\\Example\\": "src/"
+      "JaimeLopez\\Testuals\\Example\\": "src/"
     }
   }
 }

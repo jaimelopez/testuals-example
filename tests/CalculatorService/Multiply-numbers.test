@@ -1,5 +1,5 @@
 name: "Calculator Service - multiplyNumbers method"
-class: Santa\Testuals\Example\Service\CalculatorService
+class: JaimeLopez\Testuals\Example\Service\CalculatorService
 method: "multiplyNumbers"
 arguments:
     - 2
